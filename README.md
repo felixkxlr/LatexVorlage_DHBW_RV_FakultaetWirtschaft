@@ -23,7 +23,7 @@ Dateien, die du zum Ordner `/chapter` hinzufügst, werden ebenfalls ignoriert, �
 
 ### Ohne git
 
-Um die Vorlage zu benutzen, kannst du sie einfach [hier](https://https://github.com/felixkxlr/LatexVorlage_DHBW_RV_FakultaetWirtschaft/vorlage.zip) Downloaden.
+Um die Vorlage zu benutzen, kannst du sie einfach [hier](https://github.com/felixkxlr/LatexVorlage_DHBW_RV_FakultaetWirtschaft/vorlage.zip) Downloaden.
 Das .zip entpacken und den Inhalt in dein gewünschtes Arbeitsverzeichnis kopieren.
 
 ## Installation
