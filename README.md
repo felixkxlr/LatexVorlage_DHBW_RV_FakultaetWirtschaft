@@ -18,7 +18,7 @@ Es gibt zwei Möglichkeiten, diese Vorlage zu benutzen:
 
 ### Mit git
 
-Um die Versionierung der Vorlage zu nutzen, empfiehlt es sich, das Repository auf Github auszuchecken. Alle Einstellungen (Parameter, Gliederung) kannst du im Ordner `/config` vornehmen. Dieser wird vom Repository nicht beeinflusst.
+Um die Versionierung der Vorlage zu nutzen, empfiehlt es sich, das [Repository](https://github.com/felixkxlr/LatexVorlage_DHBW_RV_FakultaetWirtschaft) auf Github auszuchecken. Alle Einstellungen (Parameter, Gliederung) kannst du im Ordner `/config` vornehmen. Dieser wird vom Repository nicht beeinflusst.
 Dateien, die du zum Ordner `/chapter` hinzufügst, werden ebenfalls ignoriert, Änderungen an den Beispieldateien werden jedoch von der Versionsverwaltung verfolgt.
 
 ### Ohne git
@@ -149,7 +149,9 @@ Version 2.0: Julian Amelung - 2016
 
 Version 3.0: Felix Keller (unterstützt von Sebastian Geimer) - 2024
 
-Version 4.0: Felix Keller - 2025 (Anpassung an Richtlinie V 2.0, APA 7, Biber, Mehrsprachigkeit)
+Version 4.0: Simon Fischer - 2025 (Zitierstil-Vergleich -> Grundlage für Zitierstilentscheidung)
+
+Version 5.0: Felix Keller - 2025 (Anpassung an Richtlinie V 2.0, APA 7, Biber, Mehrsprachigkeit (Deutsch, Englisch))
 
 ## [License](LICENSE)
 
