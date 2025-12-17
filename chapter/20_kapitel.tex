@@ -1,0 +1,50 @@
+\section{Ich bin ein Kapitel} \label{Ich bin ein Kapitel}
+Ich bin ein Kapitel
+\subsection{Listing Beispiel} \label{Listing Beispiel}
+\begin{lstlisting}[language=Python, caption={MeinListing}, label={MeinListing}]
+/************Globals & defines**************/
+
+// Pins
+const int dpSensor = 2;
+const int dpDumpButton = 3;
+const int dpGreenLed = 9;
+const int dpRedLed = 10;
+const int dpValveTank = 7;
+const int dpValveDump = 8;
+
+// Global variables
+volatile unsigned long ulMicrosWait = 0;
+\end{lstlisting}
+
+\subsection{Tabelle Beispiel} \label{Tabelle Beispiel}
+
+\begin{table}[b]
+	\centering
+	\caption{Beispiel einer Tabelle}
+	\begin{tabular}{m{5.5cm} >{\centering\arraybackslash}m{0.7cm} >{\centering\arraybackslash}m{2.3cm} >{\centering\arraybackslash}m{2.3cm} >{\centering\arraybackslash}m{2.3cm}}
+		\toprule
+		\midrule
+		\multicolumn{5}{c}{\textbf{Senica}}\\
+		\midrule
+		& & Manuell & LM & RM \\
+		\cmidrule(l){3-5}
+		Netto Produktionszeit $T_{NET}$ & \si{\frac{min}{shift}} & \num{392,0} & \multicolumn{2}{c}{\num{411,8}}\\
+		Ausgebrachte Stückzahl pro Jahr $n$ & \si{\frac{stk}{a}} & \num{497954} & \num{686400} & \num{1090164}\\
+		\midrule
+		\multicolumn{5}{c}{\textbf{Neustadt}}\\
+		\midrule
+		& & Manuell & LM & RM \\
+		\cmidrule(l){3-5}
+		Netto Produktionszeit $T_{NET}$ & \si{\frac{min}{shift}} & \num{395,5} & \multicolumn{2}{c}{\num{428,5}}\\
+		Ausgebrachte Stückzahl pro Jahr $n$ & \si{\frac{stk}{a}} & \num{517476} & \num{685555} & \num{1088823}\\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\subsection{Formel- und Symbol-Beispiel} \label{Mathe Beispiel}
+\ac{DHBW}
+Hier ein Beispiel für eine Formel:
+\begin{equation}
+    E = mc^2 \label{eq:einstein}
+\end{equation}
+Hierbei ist \(E\) die Energie, \(m\) die Masse, und \(c\) die Lichtgeschwindigkeit.

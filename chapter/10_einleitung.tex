@@ -1,0 +1,68 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                         %%
+%% \/   \/      Erklärung der Begriffe						       \/   \/ %%
+%%                                                                         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Überschriften und Gliederung				%
+\section{erste Gliederungsebene}\label{sec:erste Gliederungseben}		   	% 
+\subsection{zweite Gliederungsebene}\label{sec:zweite Gliederungsebene}	   	% 
+\subsubsection{dritte Gliederungsebene}	\label{sec:dritte Gliederungsebene}	% 
+\subsubsection{dritte Gliederungsebene}	\label{sec:dritte Gliederungsebene_1}	% 
+\label{referenzKey} 					   	% Einen Referenzpunkt setzen
+%											% 
+%% Text Styles								%
+\gqq{Anführungszeichen} 				\\ 	% 
+\textbf{Fettgedruckt}					\\ 	% 
+\textit{Kursiv}							\\ 	% 
+\underline{Unterstrichen}				\\ 	% 
+\\											% Zeilenumbruch
+%											%
+%% Text Elements							%
+\myboxquote{Dieser Text steht in einer Box} % Für längere Zitate geeignet
+\begin{itemize}								% Beginn einer Aufzählung
+	\item erster Punkt						% Aufzählungspunkt
+	\item Zweiter Punkt						% Aufzählungspunkt
+\end{itemize}								% Ende der Aufzählung
+
+\begin{figure}[hbt]							% Beginn einer Grafik
+	\centering 								% trim=left bottom right top
+	\includegraphics[width=0.75\textwidth]{images/Seeigel_wuhuu.JPG}
+	\caption[Bild Beschriftung]{Bild Beschriftung \cite[2]{einstein}}  % zweiter teil nicht im Verzeichnis
+	\label{fig:seeigel}
+\end{figure}
+
+ 
+%% BEISPIELE FÜR ZITATIONEN (APA STIL) %%
+
+% 1. Indirektes Zitat (Sinngemäß) -> Nutzt Ihren neuen \vgl Befehl
+Das ist eine allgemeine Aussage \vgl{einstein}.
+
+Das steht auf einer Seite \vgl[2]{einstein}.
+
+Das steht auf mehreren Seiten \vgl[2--4]{einstein}.
+
+% 2. Direktes Zitat (Wörtlich) -> Nutzt \parencite (KEIN vgl.)
+"Gott würfelt nicht" \parencite[45]{einstein}.
+
+% 3. Im Fließtext (Narrativ) -> Nutzt \textcite
+Wie \textcite{einstein} schon 1905 sagte, ist alles relativ.
+
+Nach \textcite[12]{einstein} ist die Lichtgeschwindigkeit konstant.
+
+Referenz auf einen Anhang:\\
+\mypageref{bootstrap-book}
+\\\\
+%											% 
+%% Label Referenzierung 					%
+(siehe \mypageref{referenzKey})			\\ 	% Referenz auf \label key mit Seitenangabe
+Abb. \ref{fig:seeigel}					\\	% Referenz auf \label ohne Seitenangabe
+%											%
+Nun folgen alle Möglichkeiten, um Abkürzungen im Text einzufügen:\\
+\ac{DHBW}\\
+\acs{DHBW}\\
+\acl{DHBW}\\
+\acp{DHBW}\\
+%											%
+%% Weitere Hinweise
+Mehrmals Kompilieren hilft manchmal bei Problemen.\\
+Alles außer vorlage.tex und der Ordner aus dem Root-Verzeichnis löschen und mehrmals neu kompilieren löst hartnäckigere Fehler.
